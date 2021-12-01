@@ -18,17 +18,22 @@ dischi in pagina: al caricamento della pagina ci saranno tutti i dischi. -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
 <body>
 
     <header></header>
     <main>
-    <div class="row row-cols-1 row-cols-md-5 g-4 container mx-auto">
 
-        <?php include_once __DIR__ . "/../components/card_cicle.php" ?>
-      </div>
+    <div class="mainbg py-2">
+        <div class="row row-cols-1 row-cols-md-5 g-4 container mx-auto">
+
+            <?php include_once __DIR__ . "/../components/card_cicle.php" ?>
+        </div>
+
+    </div>
+   
 
 
     </main>
