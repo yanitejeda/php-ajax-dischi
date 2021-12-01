@@ -1,0 +1,22 @@
+.bnone {
+    border: none;
+    padding: 10px;
+    background-color: #2B3A46;
+}
+
+.cardBg {
+    background-color: #2B3A46;
+}
+
+.tittleColor {
+    color: #FFFFFF;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.mainbg {
+    background-color: #192D3B;
+    min-height: 500px;
+}
